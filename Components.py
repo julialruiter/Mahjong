@@ -39,10 +39,24 @@ __________________________________________________________________
 ## Discards: (order matters)
 ## Riichi bet:  bool (public)
 ## Skill level:  (future implementation)
+## Tenpai:  bool (private)
 
 ## f(n):  draw tile
 ## f(n):  discard tile
 ## f(n):  call pon/kan/chi
 
 ## NOTE:  weight of waiting/discard tile choices should rest in AI class
-## NOTE:  create separate class for 
+
+__________________________________________________________________
+# Class:  Evaluation ==> will be split up to other classes since some are shared resources
+## safe tiles
+## win probability
+## tile draw probability
+## winning conditon acheived/pending
+
+__________________________________________________________________
+# Class: Scoring
+## list of winning hands (and points)
+## account for dealer
+## bonuses (dora, etc)
+
